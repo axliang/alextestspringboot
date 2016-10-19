@@ -37,7 +37,7 @@ import com.test.domain.ServiceUserBean;
  * @version 
  */
 @Service
-public class UserInfoCache  {
+public class UserInfoCache implements InitializingBean {
     
     @Value("${service.invoke.quota}")
     private int quota;//TODO 目前将调用配额都设置成相同，后期建议维护一份服务调用者和配额关系
@@ -47,9 +47,36 @@ public class UserInfoCache  {
     private Lock sucessLock = new ReentrantLock();
     
     
+    public boolean exceedLimit(String userId) {
+        if (courrentMap.containsKey(userId)) {
+            AtomicLong count = courrentMap.get(userId);
+            return count.get() >= quota;
+        }
+        return false;
+    }
+    
+    
+    public void incre(String userId, boolean success) {
+        if (success) {
+            sucessLock.lock();
+            AtomicLong count = courrentMap.get(userId);
+            if (null == count) {
+                courrentMap.put(userId, new AtomicLong(1));
+                return;
+            }
+            count.incrementAndGet();
+            courrentMap.put(userId, count);
+            sucessLock.unlock();
+        }
+    }
     
 
-    public void refresh() {
+
+    /**
+     * to init
+     */
+    @Override
+    public void afterPropertiesSet() throws Exception {
         // TODO Auto-generated method stub
         List<ServiceUserBean>  serviceUserBeans = serviceStaticDao.getAllBean();
         Map<String,AtomicLong> map  = new HashMap<String,AtomicLong>();

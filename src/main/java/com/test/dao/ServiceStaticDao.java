@@ -29,6 +29,8 @@ public interface ServiceStaticDao {
     
     public List<ServiceUserBean> getAllBean();
     
+    public List<ServiceUserBean> flushAllBean();
+    
 
 }
 
