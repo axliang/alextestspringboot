@@ -18,7 +18,7 @@ import java.util.Date;
 /**
  * @Type ParamHead.java
  * @Desc 
- * @author Lucifer
+ * @author 
  * @date 2016年8月28日 下午5:19:11
  * @version 
  */
@@ -155,5 +155,5 @@ public class ParamHead {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年8月28日 Lucifer creat
+ * 2016年8月28日  creat
  */

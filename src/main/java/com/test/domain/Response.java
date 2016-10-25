@@ -18,7 +18,7 @@ import com.alibaba.fastjson.JSONObject;
 /**
  * @Type Response.java
  * @Desc 请求响应
- * @author Lucifer
+ * @author 
  * @date 2016年8月28日 下午4:37:46
  * @version 
  */
@@ -60,5 +60,5 @@ public class Response {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年8月28日 Lucifer creat
+ * 2016年8月28日  creat
  */

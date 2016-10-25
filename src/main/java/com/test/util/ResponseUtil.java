@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @Type ResponseUtil.java
  * @Desc 响应工具类
- * @author Lucifer
+ * @author 
  * @date 2016年8月29日 下午2:34:51
  * @version 
  */
@@ -61,5 +61,5 @@ public class ResponseUtil {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年8月29日 Lucifer creat
+ * 2016年8月29日  creat
  */

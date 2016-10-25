@@ -24,7 +24,7 @@ package com.test.enums;
  * 
  * @Type OpenResponseStatus.java
  * @Desc 通用返回码定义
- * @author Lucifer
+ * @author 
  * @date 2016年9月20日 下午2:25:58
  * @version 
  */
@@ -307,5 +307,5 @@ public enum OpenResponseStatus {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年9月20日 Lucifer creat
+ * 2016年9月20日  creat
  */

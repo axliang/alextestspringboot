@@ -18,7 +18,7 @@ import com.alibaba.fastjson.JSONObject;
 /**
  * @Type OpenResponse.java
  * @Desc 通用接口响应
- * @author Lucifer
+ * @author 
  * @date 2016年9月18日 下午4:55:15
  * @version 
  */
@@ -61,5 +61,5 @@ public class OpenResponse {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年9月18日 Lucifer creat
+ * 2016年9月18日  creat
  */

@@ -78,5 +78,4 @@ public class MyBatisConfig {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年9月7日 Lucifer creat
  */

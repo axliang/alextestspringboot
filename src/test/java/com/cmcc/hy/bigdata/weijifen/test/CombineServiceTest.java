@@ -33,7 +33,7 @@ import com.test.util.RSAUtil;
 /**
  * @Type CombineServiceTest.java
  * @Desc 
- * @author Lucifer
+ * @author 
  * @date 2016年9月23日 下午1:30:39
  * @version 
  */
@@ -79,5 +79,5 @@ public class CombineServiceTest {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016骞�9鏈�23鏃� Lucifer creat
+ * 2016骞�9鏈�23鏃�  creat
  */

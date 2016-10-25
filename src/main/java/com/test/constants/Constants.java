@@ -16,7 +16,6 @@ package com.test.constants;
 /**
  * @Type Constants.java
  * @Desc 
- * @author Lucifer
  * @date 2016年9月19日 下午2:39:34
  * @version 
  */
@@ -51,5 +50,5 @@ public class Constants {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年9月19日 Lucifer creat
+ * 2016年9月19日  creat
  */

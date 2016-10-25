@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * @Type ParamBody.java
  * @Desc 
- * @author Lucifer
+ * @author 
  * @date 2016年8月28日 下午5:20:21
  * @version 
  */
@@ -36,5 +36,5 @@ public class ParamBody {
  * 
  * Date Author Note
  * -------------------------------------------------------------------------
- * 2016年8月28日 Lucifer creat
+ * 2016年8月28日  creat
  */
